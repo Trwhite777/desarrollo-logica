@@ -6,8 +6,13 @@ public class Participante {
     private String nombre;
     private int edad;
     private String pais;
-    private String numeroParticipante;
-    private boolean isPlaying;
+
+
+    public Participante(String nombre , int edad , String pais) {
+        setNombre(nombre);
+        setEdad(edad);
+        setPais(pais);
+    }
 
 
     public String getNombre() {
@@ -34,13 +39,6 @@ public class Participante {
         this.pais = pais;
     }
 
-    public String getNumeroParticipante() {
-        return numeroParticipante;
-    }
-
-    public void setNumeroParticipante(String numeroParticipante) {
-        this.numeroParticipante = numeroParticipante;
-    }
 
 
 

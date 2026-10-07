@@ -1,5 +1,7 @@
 package ejercicio1;
 
 public class Eventos {
-    int espectadoresEstadio;
+    private int espectadoresEstadio;
+    private String numeroParticipantes;
+
 }
